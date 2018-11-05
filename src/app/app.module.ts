@@ -12,6 +12,7 @@ import { Ej2waybindingComponent } from './ej2waybinding/ej2waybinding.component'
 
 import { FormsModule } from '@angular/forms';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
+import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.comp
     EjpropertybindingComponent,
     EjeventbindingComponent,
     Ej2waybindingComponent,
-    EjdirectivangifComponent
+    EjdirectivangifComponent,
+    EjdirectivangstyleComponent
   ],
   imports: [
     BrowserModule,
