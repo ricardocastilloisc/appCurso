@@ -6,8 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ejpropertybinding.component.css']
 })
 export class EjpropertybindingComponent implements OnInit {
-
-  constructor() { }
+  texto = 'Escribe algo';
+  constructor() {
+    setTimeout(
+      () => {
+        this.texto = 'por favor';
+      }, 3000
+    );
+   }
 
   ngOnInit() {
   }
